@@ -77,7 +77,7 @@ header{
     }
 
     .boxMenu{
-        border: solid 2px yellow;
+        // border: solid 2px yellow;
         ul{
             font-size: 1.6vw;
         }
@@ -93,5 +93,44 @@ header{
         &::placeholder{
             font-size: 1.3vw;
             }
+    }
+}
+
+@media(max-width: 760px){
+    header{
+        height: 25vh;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
+.boxSearch{
+    display: none;
+}
+.boxLogo{
+    width: 100%;
+    justify-content: space-evenly;
+    h1{
+        font-size: 25px;
+    }
+    img{
+        width: 50px;
+    }
+}
+.boxMenu{
+    width: 100%;
+    ul{
+        font-size: 22px;
+        justify-content: space-around;
+    }
+   
+}
+
+
+@media(max-width: 380px){
+    .boxMenu{
+        ul{
+            font-size: 18px;
+        }
     }
 }
