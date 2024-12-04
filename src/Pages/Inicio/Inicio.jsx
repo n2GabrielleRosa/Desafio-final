@@ -1,7 +1,7 @@
 import S from "./inicio.module.scss"
-import livros from '../../assets/livros.png'
-import leitura from '../../assets/leitura.png'
 import comunidade from '../../assets/comunidade.png'
+import leitura from '../../assets/leitura.png'
+import conhecimento from '../../assets/conhecimento.png'
 import balance from '../../assets/balance.png'
 
 
@@ -19,7 +19,7 @@ export default function inicio(){
 
             <section className={S.boxCard}>
                 <article>
-                <img src={livros} alt="" />
+                <img src={comunidade} alt="" />
                 <p> Oferece livros a quem não tem acesso, ajudando a reduzir a exclusão social.</p>
                 </article>
 
@@ -29,7 +29,7 @@ export default function inicio(){
                 </article>
 
                 <article>
-                <img src={comunidade} alt="" />
+                <img src={conhecimento} alt="" />
                 <p>Fornece conhecimento e inspiração, permitindo que indivíduos transformem suas vidas.</p>
                 </article>
 

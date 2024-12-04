@@ -10,7 +10,7 @@ header{
 }
 
 .boxLogo{
-    // border: solid 2px yellow;
+    
     width: 23vw;
     display: flex;
     align-items: center;
@@ -24,7 +24,7 @@ header{
 }
 
 .boxMenu{
-    // border: solid 2px greenyellow;
+    
     width: 35vw;
     ul{
         display: flex;
@@ -39,7 +39,7 @@ header{
 
 .boxSearch{
     border: solid 2px white;
-    width: 17vw;
+    width: 19vw;
     height: 6vh;
     display: flex;
     align-items: center;
@@ -66,7 +66,7 @@ header{
 
 @media(max-width: 1170px){
     .boxLogo{
-        border: solid 2px red;
+       
         h1{
             font-size: 1.7vw;
         }
@@ -77,7 +77,7 @@ header{
     }
 
     .boxMenu{
-        // border: solid 2px yellow;
+        
         ul{
             font-size: 1.6vw;
         }
@@ -102,11 +102,14 @@ header{
         flex-direction: column;
         justify-content: space-around;
     }
+    .boxSearch{
+        display: none;
+    }
 }
 
-.boxSearch{
-    display: none;
-}
+// .boxSearch{
+//     display: none;
+// }
 .boxLogo{
     width: 100%;
     justify-content: space-evenly;

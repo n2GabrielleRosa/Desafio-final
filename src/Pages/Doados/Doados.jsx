@@ -2,6 +2,7 @@ import S from './doados.module.scss'
 import livroDoado from '../../assets/livroDoado.png'
 
 
+
 export default function Doados(){
     return(
         <section className={S.boxDoados}>
@@ -14,6 +15,8 @@ export default function Doados(){
                     <p>Susanne Andrade</p>
                     <p>Ficção</p>
                 </article>
+
+
             </section>
 
         </section>

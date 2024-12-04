@@ -1,6 +1,6 @@
 
 .principal{
-    border: solid 2px red;
+   
     height: 80vh;
     display: flex;
     justify-content: center;
@@ -8,11 +8,15 @@
 }
 
 .container{
-    border: solid 2px rgb(0, 140, 255);
+ 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    h2{
+        
+        text-align: center;
+    }
 }
 form{
      border: 3px solid rgba(0, 86, 149, 1);
@@ -33,7 +37,7 @@ form{
     }
     input{
         border: solid 2px rgba(0, 86, 149, 1);
-        width: 22vw;
+        width: 80%;
         height: 5vh;
         border-radius: 10px;
         outline: none;
@@ -44,7 +48,7 @@ form{
         }
     }
     input:nth-child(6){
-        width: 10vw;
+        width: 40%;
         height: 6vh;
         padding-left: 0;
         background-color:  rgba(0, 86, 149, 1);
@@ -53,4 +57,41 @@ form{
         cursor: pointer;
         font-size: 17px;
     }
+}
+
+@media(max-width: 1170px){
+
+
+    form{
+       width: 350px;
+    }
+}
+
+@media(max-width: 650px){
+    .container{
+        height: 90vh;
+        h2{
+            font-size: 20px;
+        }
+    }
+
+    .principal{
+        height: auto;
+    }
+}
+
+@media(max-width: 450px){
+
+    form{
+        width: 75vw;
+        div{
+            img{
+                width: 13vw;
+            }
+            h3{
+                font-size: 4.5vw;
+            }
+        }
+    }
+
 }
